@@ -1,0 +1,19 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CameraHelper.cpp
+  正在產生程式碼...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : 發現 MSIL 模組。MSIL 的累加連結已停用。正在執行完整連結
+CameraHelper.obj : error LNK2028: 無法解析的語彙基元 (0A000074) "extern "C" long __stdcall VariantClear(struct tagVARIANT *)" (?VariantClear@@$$J14YGJPAUtagVARIANT@@@Z) 在函式 "public: static class System::Collections::Generic::List<class CameraHelper::CameraInfo ^> ^ __clrcall CameraHelper::CameraHelper::GetCameras(void)" (?GetCameras@CameraHelper@1@$$FSMP$AAV?$List@P$AAVCameraInfo@CameraHelper@@@Generic@Collections@System@@XZ) 中被參考
+CameraHelper.obj : error LNK2028: 無法解析的語彙基元 (0A000078) "extern "C" void __stdcall VariantInit(struct tagVARIANT *)" (?VariantInit@@$$J14YGXPAUtagVARIANT@@@Z) 在函式 "public: static class System::Collections::Generic::List<class CameraHelper::CameraInfo ^> ^ __clrcall CameraHelper::CameraHelper::GetCameras(void)" (?GetCameras@CameraHelper@1@$$FSMP$AAV?$List@P$AAVCameraInfo@CameraHelper@@@Generic@Collections@System@@XZ) 中被參考
+CameraHelper.obj : error LNK2020: 無法解析的語彙基元 (0A00007D) CLSID_VideoInputDeviceCategory
+CameraHelper.obj : error LNK2020: 無法解析的語彙基元 (0A00007F) CLSID_SystemDeviceEnum
+CameraHelper.obj : error LNK2020: 無法解析的語彙基元 (0A000080) IID_ICreateDevEnum
+CameraHelper.obj : error LNK2028: 無法解析的語彙基元 (0A000081) "extern "C" long __stdcall CoCreateInstance(struct _GUID const &,struct IUnknown *,unsigned long,struct _GUID const &,void * *)" (?CoCreateInstance@@$$J220YGJABU_GUID@@PAUIUnknown@@K0PAPAX@Z) 在函式 "public: static class System::Collections::Generic::List<class CameraHelper::CameraInfo ^> ^ __clrcall CameraHelper::CameraHelper::GetCameras(void)" (?GetCameras@CameraHelper@1@$$FSMP$AAV?$List@P$AAVCameraInfo@CameraHelper@@@Generic@Collections@System@@XZ) 中被參考
+CameraHelper.obj : error LNK2001: 無法解析的外部符號 _CLSID_SystemDeviceEnum
+CameraHelper.obj : error LNK2001: 無法解析的外部符號 _IID_ICreateDevEnum
+CameraHelper.obj : error LNK2019: 在函式 "extern "C" long __stdcall CoCreateInstance(struct _GUID const &,struct IUnknown *,unsigned long,struct _GUID const &,void * *)" (?CoCreateInstance@@$$J220YGJABU_GUID@@PAUIUnknown@@K0PAPAX@Z)"public: static class System::Collections::Generic::List<class CameraHelper::CameraInfo ^> ^ __clrcall CameraHelper::CameraHelper::GetCameras(void)" (?GetCameras@CameraHelper@1@$$FSMP$AAV?$List@P$AAVCameraInfo@CameraHelper@@@Generic@Collections@System@@XZ) 中參考了無法解析的外部符號
+CameraHelper.obj : error LNK2001: 無法解析的外部符號 _CLSID_VideoInputDeviceCategory
+CameraHelper.obj : error LNK2019: 在函式 "extern "C" void __stdcall VariantInit(struct tagVARIANT *)" (?VariantInit@@$$J14YGXPAUtagVARIANT@@@Z)"public: static class System::Collections::Generic::List<class CameraHelper::CameraInfo ^> ^ __clrcall CameraHelper::CameraHelper::GetCameras(void)" (?GetCameras@CameraHelper@1@$$FSMP$AAV?$List@P$AAVCameraInfo@CameraHelper@@@Generic@Collections@System@@XZ) 中參考了無法解析的外部符號
+CameraHelper.obj : error LNK2019: 在函式 "extern "C" long __stdcall VariantClear(struct tagVARIANT *)" (?VariantClear@@$$J14YGJPAUtagVARIANT@@@Z)"public: static class System::Collections::Generic::List<class CameraHelper::CameraInfo ^> ^ __clrcall CameraHelper::CameraHelper::GetCameras(void)" (?GetCameras@CameraHelper@1@$$FSMP$AAV?$List@P$AAVCameraInfo@CameraHelper@@@Generic@Collections@System@@XZ) 中參考了無法解析的外部符號
+C:\Users\sam20\Desktop\chuni-hands-dependabot-nuget-chuni-hands-Newtonsoft.Json-13.0.1\Release\CameraHelper.dll : fatal error LNK1120: 12 個無法解析的外部符號

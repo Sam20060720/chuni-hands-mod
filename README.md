@@ -16,3 +16,5 @@ A modded version from [Chuni-hands](https://github.com/logchan/chuni-hands) that
 
 - VS2022
 - [emgucv](https://github.com/emgucv/emgucv)
+
+![image](https://github.com/Sam20060720/chuni-hands-mod/blob/master/screenshot.png)
